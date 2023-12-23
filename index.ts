@@ -1,4 +1,7 @@
 import { Blockchain } from "./Blockchain";
+import { WebServer } from "./web-server";
 
 
-const blockchain = new Blockchain();
+export const blockchain = new Blockchain();
+
+const webServer = new WebServer(80);
